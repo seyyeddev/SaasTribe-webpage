@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+:root {
+    --blue: #377DFF;
+    --black: linear-gradient(#2D2F33 , #272A2E , #222529);
+    --white: #FFFFFF;
+    --gray: #707070;
+    --black-body: linear-gradient(#212429 , #1A1C20);
+    --font-color: #D1E0FB;
+}
