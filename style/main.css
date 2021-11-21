@@ -1,0 +1,82 @@
+ * , *::after , *::before {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: var(--black);
+ }
+
+
+/******************start header****************/
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__list {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav__item {
+    position: relative;
+    padding: 0 30px;
+}
+
+.nav__link {
+    color: var(--font-color);
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav__icon {
+    padding-left: 10px;
+}
+
+.nav__logo {
+    color: var(--font-color);
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 30px;
+    background-color: var(--blue);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 25px 30px 20px 30px;
+}
+
+.nav__item--purchase {
+    background-color: var(--blue);
+    padding: 12px 22px;
+    border-radius: 5px;
+}
+
+.nav__dropdown {
+    display: none;
+    position: absolute;
+    background-color: var(--black);
+    padding-top: 10px;
+    z-index: 999;
+}
+
+.nav__dropdown a {
+    display: block;
+    text-decoration: none;
+    color: var(--font-color);
+    padding: 10px;
+    border-bottom: 1px solid var(--font-color);
+}
+
+.nav__item:hover .nav__dropdown {
+    display: block;
+}
+
+.nav__bars {
+    display: none;
+}
+/******************end header****************/
