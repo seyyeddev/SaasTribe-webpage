@@ -6,13 +6,15 @@
 
  body {
      background-color: var(--black);
+     line-height: 32px;
  }
 
 
 /******************start header****************/
+
 .nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .nav__list {
@@ -33,6 +35,7 @@
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 15px;
+    text-transform: capitalize;
 }
 
 .nav__icon {
@@ -48,6 +51,7 @@
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     padding: 25px 30px 20px 30px;
+    text-transform: capitalize;
 }
 
 .nav__item--purchase {
@@ -78,5 +82,89 @@
 
 .nav__bars {
     display: none;
+}
+
+
+.welcome__logo {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    background-color: #212429;
+    color: var(--blue);
+    padding: 8px;
+    font-size: 9px;
+    border-radius: 50%;
+}
+
+.welcome__title {
+    margin: 40px 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: var(--white);
+}
+
+.welcome__caption {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: var(--font-color);
+    margin-bottom: 25px;
+}
+
+.welcome__btns {
+    display: flex;
+}
+
+.welcome__btn {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: var(--font-color);
+    outline: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    border: 1px solid var(--blue);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.welcome__btn--1 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.welcome__btn--2 {
+    background-color: transparent;
+    margin-left: 5px;
+}
+
+.welcome-card {
+    padding: 20px;
+    margin-bottom: 15px;
+    background-image: linear-gradient(120deg , #2D2F33 , #272A2E , #222529);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.welcome-card__img {
+    padding: 10px;
+    background-color: #2e3238;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+}
+
+.welcome-card__title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: var(--white);
+    margin: 18px 0;
+}
+
+.welcome-card__caption {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: var(--font-color);
+    font-size: 12px;
 }
 /******************end header****************/
