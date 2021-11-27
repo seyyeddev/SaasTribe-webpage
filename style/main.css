@@ -168,3 +168,73 @@
     font-size: 12px;
 }
 /******************end header****************/
+
+
+
+
+
+
+
+
+
+
+/******************start featured****************/
+.features__logo {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    background-color: #212429;
+    color: var(--blue);
+    padding: 8px;
+    font-size: 9px;
+    border-radius: 50%;
+}
+
+.features__title {
+    margin: 40px 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: var(--white);
+}
+
+.features__caption {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: var(--font-color);
+    margin-bottom: 25px;
+}
+
+.features__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.features__numberinfo {
+   display: flex;
+   flex-direction: column;
+   line-height: 30px !important;
+   margin-bottom: 20px;
+}
+
+.features__numberinfo-1 {
+    color: var(--blue);
+    font-size: 40px;
+}
+
+.features__numberinfo-2 {
+    color: var(--font-color);
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.features-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.features-img img {
+    width: 50%;
+}
+/******************end featured****************/
