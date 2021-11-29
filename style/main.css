@@ -238,3 +238,81 @@
     width: 50%;
 }
 /******************end featured****************/
+
+
+
+
+
+
+
+
+
+/******************start connect****************/
+.connect-img {
+    position: relative;
+    transform: translateY(-25px);
+}
+
+.connect-img__img1 {
+    position: absolute;
+    z-index: -1;
+    width: 66%;
+}
+
+.connect-img__img2 {
+    position: absolute;
+    z-index: 0;
+    width: 50%;
+    transform: translateX(40px);
+}
+
+.connect__logo {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    background-color: #212429;
+    color: var(--blue);
+    padding: 8px;
+    font-size: 9px;
+    border-radius: 50%;
+}
+
+.connect__title {
+    margin: 40px 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: var(--white);
+}
+
+.connect__caption {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: var(--font-color);
+    margin-bottom: 50px;
+}
+
+.connect__btns {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.connect__btn {
+    border: none;
+    outline: none;
+    background: linear-gradient(60deg , #2D2F33 , #2C2E32 , #222529);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    margin: 0 5px 10px 5px;
+    display: inline-block;
+    width: 150px;
+    height: 65px;
+}
+
+.connect__btn--blue {
+    background-color: var(--blue);
+    background-image: var(--blue);
+    box-shadow: 3px 2px 16px 0px rgba(55 , 125 , 255 , 0.7);
+}
+
+
+/******************end connect****************/
+
