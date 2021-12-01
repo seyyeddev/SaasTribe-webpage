@@ -408,3 +408,48 @@
 /******************end answer****************/
 
 
+
+
+
+
+
+/******************start partners****************/
+.partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners__logo {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    background-color: #212429;
+    color: var(--blue);
+    padding: 8px;
+    font-size: 9px;
+    border-radius: 50%;
+}
+
+.partners__title {
+    margin-bottom: 70px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: var(--white);
+}
+
+.partners__img {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to left , #222529 , #272A2F , #2A2D31 , #2A2C31 , #272A2F , #222529)
+}
+
+.partners__img img {
+    width: 120px;
+    height: 50px;
+    margin: 30px;
+}
+/******************end partners****************/
+
+
+
