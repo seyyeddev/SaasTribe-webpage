@@ -90,6 +90,13 @@
         width: 75%;
     }
 
+    
+    /***********answer*********/
+    .answer-img {
+        display: none;
+    }
+
+
 }
 
 

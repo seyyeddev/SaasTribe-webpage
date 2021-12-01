@@ -250,13 +250,17 @@
 /******************start connect****************/
 .connect-img {
     position: relative;
-    transform: translateY(-25px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    height: 100%;
 }
 
 .connect-img__img1 {
     position: absolute;
     z-index: -1;
     width: 66%;
+    height: 100%;
 }
 
 .connect-img__img2 {
@@ -264,6 +268,7 @@
     z-index: 0;
     width: 50%;
     transform: translateX(40px);
+    height: 100%;
 }
 
 .connect__logo {
@@ -315,4 +320,91 @@
 
 
 /******************end connect****************/
+
+
+
+
+
+
+
+/******************start answer****************/
+.answer {
+
+}
+
+.answer__logo {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    background-color: #212429;
+    color: var(--blue);
+    padding: 8px;
+    font-size: 9px;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+
+.answer__title {
+    margin: 40px 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: var(--white);
+    margin-left: 60px;
+}
+
+.answer__caption {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: var(--font-color);
+    margin-bottom: 80px;
+    margin-left: 60px;
+}
+
+.answer__box {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 45px;
+    width: 70%;
+}
+
+.answer__box img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.answer__explain {
+    margin-left: 20px;
+}
+
+.answer__explain h3 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 35px;
+}
+
+.answer__explain p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: var(--font-color);
+}
+
+.answer-img {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.answer-img__img1 {
+    position: absolute;
+    width: 65%;
+}
+
+.answer-img__img2 {
+    position: absolute;
+    width: 50%;
+}
+/******************end answer****************/
+
 
