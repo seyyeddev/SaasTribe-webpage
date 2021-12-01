@@ -441,6 +441,7 @@
 .partners__img {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     background: linear-gradient(to left , #222529 , #272A2F , #2A2D31 , #2A2C31 , #272A2F , #222529)
 }
 
@@ -450,6 +451,72 @@
     margin: 30px;
 }
 /******************end partners****************/
+
+
+
+
+
+
+
+/******************start faq****************/
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq__logo {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    background-color: #212429;
+    color: var(--blue);
+    padding: 8px;
+    font-size: 9px;
+    border-radius: 50%;
+}
+
+.faq__title {
+    margin-bottom: 50px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: var(--white);
+}
+
+.faq__caption {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: var(--font-color); 
+}
+
+.faq-card {
+    display: flex;
+    align-items: flex-start;
+    width: 90%;
+}
+
+.faq-card__img {
+    margin-top: 5px;
+}
+
+.faq-card__explain {
+    margin-left: 25px;
+}
+
+.faq-card__explain h4 {
+    font-family: 'Montserrat';
+    color: var(--white);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.faq-card__explain p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: var(--font-color);
+}
+/******************end faq****************/
+
 
 
 
