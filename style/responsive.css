@@ -28,6 +28,30 @@
     .connect-img {
         display: none;
     }
+
+
+    /***********footer*********/
+    .footer-left {
+        padding-right: 0;
+        align-items: center;
+    }
+
+    .footer-left__caption {
+        text-align: center;
+    }
+
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
 }
 
 
@@ -96,6 +120,13 @@
         display: none;
     }
 
+
+
+    /***********footer*********/
+
+    .footer-left {
+        margin-bottom: 100px;
+    }
 
 }
 
