@@ -1,0 +1,102 @@
+* , *::after , *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--black);
+    line-height: 32px;
+}
+
+
+
+
+
+/******************** start sign up ************************/
+.direction {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    padding: 0 35px;
+}
+
+.direction__icon {
+    font-size: 35px;
+    color: var(--font-color);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form__title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: var(--font-color);
+    text-transform: capitalize;
+}
+
+.form__caption {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: var(--gray);
+    margin-bottom: 30px;
+}
+
+
+.form__input {
+    min-width: 340px;
+    max-width: 340px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.form__submit {
+    min-width: 340px;
+    max-width: 340px;
+    height: 50px;
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form__input::placeholder {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: var(--blue);
+}
+
+.signup-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-img  img {
+    position: absolute;
+    width: 50%;
+}
+
+
+
+/******************** end sign up ************************/
